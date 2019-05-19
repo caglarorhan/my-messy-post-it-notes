@@ -3,7 +3,8 @@
 - These are my real post-it notes around my desk. 
 - They are as un-ordered lists.
 - They have no logical hierarchy.
-- They seem chaotic, may be they are :) 
+- They might be wrong, misunderstood, confusing :/
+- They seem chaotic, may be they are so :) 
 - They are public because anybody would want to correct me …
 - Thank you :)
 
@@ -156,7 +157,22 @@ all TCP/UDP ports : https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbe
 - Mutable vs Immutable
 - Closure
 - Scope
-- 
+- .apply(), .bind(), .call()
+
+---
+**Function.prototype**
+
+- Properties
+    - caller
+    - length
+    - prototype
+    - prototype.name
+- Methods
+    - .apply()
+    - .bind()
+    - .call()
+    - .toSource()
+    - .toString()    
 
 ---
 - ``parent.replaceChild(new,old)``
@@ -167,7 +183,7 @@ all TCP/UDP ports : https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbe
 **Browser Extensions**
 - Content page (DOM side) included in page sources. And runs from there
 - Event page (background) + PopUp works with APIs.
-- These two group communicate via ``messages``.
+- These two groups communicate via ``messages``.
 ---
 
 
