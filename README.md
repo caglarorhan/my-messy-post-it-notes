@@ -78,6 +78,15 @@ _If array is a 2D key-value type array._
 > For example: ``[[key1,val1],[key2,val2],[key3,val3]]``)
     
 ---
+    const object = {x:42, y:50}
+    const entries = Object.entries(object);
+    // [['x',42],['y',50]]
+    
+    const result = Object.fromEntries(entries);
+    // {x:42, y:50}
+ 
+   
+---
 **Learn these like your hand**
 - String Methods !
 - Array Methods !
